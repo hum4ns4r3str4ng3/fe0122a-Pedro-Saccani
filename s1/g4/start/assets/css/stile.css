@@ -1,0 +1,56 @@
+/* IMPOSTAZIONI GENERALI */
+@font-face {
+    font-family:regular ;
+    src: url(./fa-regular-400.woff);
+}
+@font-face {
+    font-family: brand;
+    src: url(./fa-brands-400.woff);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {font-family:'Poppins', sans-serif;}
+/* HEADER */
+header{background: rgb(4,153,255);
+    background: linear-gradient(0deg, rgba(4,153,255,1) 0%, rgba(0,215,255,0.9615196420365021) 79%);
+text-align: center;
+color: white;}
+.epicode #epicode {font-weight: bold;
+font-size: large;
+padding: 40px;
+margin: 40px;
+border: 20px;
+height: 15px;
+width: 15px;
+}
+
+nav ul li  {text-align: center;
+list-style-position: inside;
+;list-style-type: }
+/* MAIN */
+body {background-image: url(./sfondo.png);
+font-weight: 500;}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+strong {color: rgb(230, 62, 230);}
+article p a {color:rgb(25, 177, 248) ;}
+
+main {background-color: whitesmoke;
+box-shadow:0px 3px 0 black;}
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+.box {
+background-color: lightgrey; }
+.box a {color: rgb(25, 177, 248);}
+
+.box  :first-of-type    {font-weight: 800;}
+
+.box :last-child {text-align: right;
+padding-right: 30px;}
+
+/* FOOTER */
+footer {background-color: rgb(35, 199, 177);}
