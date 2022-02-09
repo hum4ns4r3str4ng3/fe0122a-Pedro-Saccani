@@ -1,0 +1,23 @@
+$colore-sfondo :black;
+$color-white:white;
+
+$centro:center;
+
+#header {background-color: $colore-sfondo;
+
+    #main-menu  {display: flex;
+        justify-content: $centro;
+        
+    }
+            
+                li {display: inline;
+                width: 50vw;
+            margin: 5px 15px;}
+                  
+
+    a  {color:$color-white;}
+
+
+
+}
+

@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Indie Flower';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/indieflower/v16/m8JVjfNVeKWVnh3QMuKkFcZVaUuH.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+* {font-family: Indie Flower;}
+
+.container {display: flex;
+background-color: grey;
+height: 250px;
+flex-wrap: wrap;
+flex-direction: column;
+row-gap: 15px;
+column-gap: 15px;
+justify-content: space-around;
+align-content: space-around ;}
+
+
+.container > div { flex: row;
+width: 150px;
+height: 90px;
+box-shadow: black 2px 2px 10px;
+}
+
+
+
+div > h2 {margin-top: 15px;
+text-align: center;
+font-weight: 800;}
+
+p {text-align: center;
+margin-top: 15px;}
+
+.postit1 {background-color: khaki;
+margin-top: 15px;
+transform:rotate(-5deg);
+transition-property: transform;}
+
+.postit1:hover {transform: rotate(0deg);}
+
+.postit5 {background-color: khaki;
+margin-bottom: 15px;
+transform:rotate(-5deg);
+transition-property: transform;}
+
+.postit5:hover {transform: rotate(0deg);}
+
+.postit7 {background-color: khaki;
+    margin-bottom: 15px;
+    transform:rotate(-5deg);
+transition-property: transform;}
+
+.postit7:hover {transform: rotate(0deg);}
+
+.postit2 {background-color: lightgreen;
+margin-top: 15px;
+transform:rotate(5deg);
+transition-property: transform;}
+
+.postit2:hover {transform: rotate(0deg);}
+
+
+.postit4 {background-color: lightgreen;
+margin-top: 15px;
+transform:rotate(5deg);
+transition-property: transform;}
+
+.postit4:hover {transform: rotate(0deg);}
+
+.postit8 {background-color: lightgreen;
+    margin-bottom: 15px;
+    transform:rotate(5deg);
+transition-property: transform;}
+
+.postit8:hover {transform: rotate(0deg);}
+
+
+.postit3 {background-color: rgb(175, 155, 216);
+margin-top: 15px;
+transform:rotate(-10deg);
+transition-property: transform;}
+.postit3:hover {transform: rotate(0deg);}
+
+.postit6 {background-color: rgb(175, 155, 216);
+    margin-bottom: 15px;
+    transform:rotate(-10deg);
+    transition-property: transform;
+}
+
+.postit6:hover {transform: rotate(0deg);}

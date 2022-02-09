@@ -1,0 +1,11 @@
+#header {
+  background-color: black; }
+  #header #main-menu {
+    display: flex;
+    justify-content: space-evenly; }
+  #header li {
+    display: inline;
+    width: 50vw;
+    margin: 5px 15px; }
+  #header a {
+    color: white; }

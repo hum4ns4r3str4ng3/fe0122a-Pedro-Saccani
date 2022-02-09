@@ -1,0 +1,39 @@
+@import'button';
+@import 'variabili'; 
+
+*{width: 100vw;
+text-align: center;
+margin: 5 0;
+padding: 5;}
+
+.container {display: flex;
+flex-direction: column;
+justify-content: space-around;
+height: $height-nav;
+margin-bottom: $margin-bottom;}
+
+ul {width: 100vw;}
+ul li {display: inline;
+padding-right: 40px;}
+
+a {
+color: black;}
+
+
+
+
+.showcase-content {background-color: $back-color;
+    height: $height-body;
+background-image: url("https://picsum.photos/id/0/450/450");
+
+background-size: contain;
+color: white;}
+
+.text {padding-top: 50px;
+margin-top: 20px;}
+
+
+.btn-primary :hover {border-radius: 100%;}
+
+
+

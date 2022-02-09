@@ -1,0 +1,17 @@
+button {background-image: linear-gradient(#6cc1e2, #392f7a);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+       
+        padding: 10px;
+        border: none;
+        width: 150px;
+        text-align: center;
+    opacity: 80%;
+}
+
+    button a {text-decoration: none;}
+
+    button :hover {box-shadow: 1px 1px 1px white;
+    transform: rotate(45deg);}

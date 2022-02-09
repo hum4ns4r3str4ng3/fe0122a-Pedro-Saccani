@@ -1,0 +1,55 @@
+* {font-family: 'Fira Sans', sans-serif;}
+
+
+nav {text-align: left;}
+
+.logo {position: relative;
+left: 3px;
+}
+
+#primotitolo {display: flex;
+flex-direction: column;}
+
+#primotitolo .foto {height: 50vw;
+width: 100vw;}
+
+body {text-align: center;}
+
+
+
+fieldset {width: 50vw;
+padding-left: 20vw;
+border: 0;
+text-align: left;
+}
+
+input {width: 40vw;
+    height: 4vw;
+   }
+
+   button {width: 40vw;
+height: 6vw;
+background-image: linear-gradient(#6cc1e2, #392f7a)}
+
+
+footer {font-size: small;}
+
+
+
+.fa-facebook { color: #f31818;
+    
+    padding: 4px;
+    margin-left: 10px;
+
+}
+.fa-instagram { color: #f31818;
+    
+    padding: 4px;
+
+}
+.fa-linkedin { color: #f31818;
+    
+    padding: 4px;
+
+}
+  
