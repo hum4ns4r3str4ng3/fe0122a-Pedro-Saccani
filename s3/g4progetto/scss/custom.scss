@@ -1,0 +1,31 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss" ;
+@import "function";
+
+
+
+$colore:#212529;
+$mg-top: 50px;
+
+
+@media screen and (min-width: 900px) {
+    #navbarCollapse { position: absolute; right: 5px;}
+
+    #margintop {margin-top: $mg-top;}  
+
+
+
+
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss" ;
+
+
+body {background-color: $colore;
+     
+        color:set-contrast-color($colore);
+    }
+
+
+
+    @import "../node_modules/bootstrap/scss/bootstrap.scss" ;
+
