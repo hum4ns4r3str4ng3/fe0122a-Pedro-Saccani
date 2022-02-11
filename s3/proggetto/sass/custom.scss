@@ -1,0 +1,13 @@
+@import 'app' ;
+
+
+* {background-color: black;}
+$colore: white;
+#footer {
+   p { 
+        color: set-contrast-color($colore);
+    }
+     a {color: set-contrast-color($colore);}
+}
+
+
