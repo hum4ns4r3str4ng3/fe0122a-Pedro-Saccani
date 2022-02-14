@@ -12,6 +12,8 @@ $mg-top: 50px;
 
     #margintop {margin-top: $mg-top;}  
 
+   
+
 
 
 
@@ -19,11 +21,14 @@ $mg-top: 50px;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss" ;
 
-
-body {background-color: $colore;
+body > * {  background-color: #212529;
+    
      
-        color:set-contrast-color($colore);
-    }
+        color:set-contrast-color($colore);}
+
+
+  .aside1  {color:set-constrast-color ($colore);}    
+    
 
 
 

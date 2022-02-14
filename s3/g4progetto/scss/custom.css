@@ -23888,9 +23888,13 @@ fieldset:disabled .btn {
   }
 }
 
-body {
+body > * {
   background-color: #212529;
   color: #fff;
+}
+
+.aside1 {
+  color: set-constrast-color #212529;
 }
 
 /*!
