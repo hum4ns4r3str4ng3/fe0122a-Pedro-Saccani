@@ -1,10 +1,23 @@
+//range
 
+function range(){
+    var a = document.getElementById('primo').value
+    var b = document.getElementById('secondo').value
+    document.getElementById('range').innerHTML = (Number (a) - Number(b))
+}
+
+
+
+
+
+//operatore ternario // 
 var eta = (anni>18) ? "proibito l ingresso" : "ingresso permesso"; 
 
 
 var anni = 24 ;
 
 document.write(eta);
+
 
 
 // CHIEDERE perche quando cambia variabile aggiorna valore di tutti due, e come fare a spostare su una nuova linea //
@@ -33,3 +46,7 @@ operazione();
 
 alert(8!=10);
 alert(8==10); 
+document.write("<br>",  20>=20);
+
+
+// perche la virgula dopo il br va e il + no //
