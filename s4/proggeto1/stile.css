@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+@font-face {
+    font-family: game;
+    src: url(./ARCADECLASSIC.TTF);
+  }
+
 * , *::before, *::after {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: game ,'Orbitron', sans-serif;
     font-weight: normal;
     
 
 }
 
 body {
-background-image: linear-gradient(to right, red, black);
+background-image: url(./117771661-old-game-background-classic-retro-arcade-design-with-pipe-and-brick.webp);
 background-repeat: no-repeat;
 background-size: cover;
 
@@ -16,8 +23,10 @@ background-size: cover;
 
 
 .calculator-grid {
+    
     display: grid;
     justify-content: center;
+    
   
     
     align-content: center;
@@ -26,17 +35,21 @@ background-size: cover;
 
 }
 
+
+
+
 .calculator-grid > button {
     cursor: pointer;
     font-size: 2rem;
-    border: 1px solid white;
+    border: 2px solid green;
     outline: none;
     background-color: rgb(255, 255, 255, .75);
+    
 
 }
 
 .calculator-grid > button:hover {
-    background-color: rgb(255, 255, 255, .9);
+    background-color: rgba(91, 129, 253, 0.9);
 }
 
 .span-two {
@@ -69,14 +82,32 @@ font-size: 1.5rem;
 
  .output .eternal-oper {
     color: green;
-    font-size: 0.5rem;
+    font-size: 1rem;
     position: relative;
-    right: 320px;
+    right: 200px;
     bottom: 70px;
  }   
 
 
  .span-tree {
     grid-column: span 3;
+}
+
+#risultato {
+    position: relative;
+    top: 25px;
+    text-align: right;
+    background-color: transparent;
+    color: rgb(10, 190, 106);
+    border: 0;
+    font-size: 2rem;
+    word-wrap: break-word;
+    word-break: break-all;
+    
+}
+
+input {
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
