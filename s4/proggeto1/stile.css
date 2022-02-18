@@ -44,12 +44,32 @@ background-size: cover;
     border: 2px solid green;
     outline: none;
     background-color: rgb(255, 255, 255, .75);
+    transition: .5s cubic-bezier(.19,.93,.83,.67);
     
 
 }
 
 .calculator-grid > button:hover {
     background-color: rgba(91, 129, 253, 0.9);
+    letter-spacing: 10px;
+    animation: animate .5s;
+}
+@keyframes animate {
+    0% {
+        font-size: 0.3rem;
+    }
+    25% {
+        font-size: 1.5rem;
+    }
+    50% {
+        font-size: 2.5rem;
+    }
+    75% {
+        font-size: 0.5rem;
+    }
+    100% {
+        font-size: 2rem;
+    }
 }
 
 .span-two {
@@ -111,3 +131,25 @@ input {
     word-break: break-all;
 }
 
+
+
+@media screen and (min-width: 300px) and (max-width:500px) {
+   .quer {transform: scale(50%);}
+
+   
+
+
+
+
+}
+
+
+@media screen and (min-width: 500px) and (max-width:1000px) {
+    .quer {transform: scale(70%);}
+ 
+    
+ 
+ 
+ 
+ 
+ }

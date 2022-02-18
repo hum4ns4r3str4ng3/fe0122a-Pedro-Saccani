@@ -14,3 +14,5 @@ function totale () {
     let totale = eval(risultato.value)
     risultato.value = totale
 }
+
+
