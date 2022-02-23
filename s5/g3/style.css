@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+*{  font-family: 'Indie Flower', cursive;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.0rem;
+}
+
+body { background-image: url(./elijah-pilchard-hfh3nuJ6BY0-unsplash.jpg);
+background-size: cover;
+background-position: center center;
+min-height: 100vh;
+margin: 0 0 0 20;
+padding: 0;
+
+}
+
+
+button {background-color: transparent;
+border-radius: 40px;}
+
+
+.nascosto{ 
+    display: none;
+
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.tendina {
+background-color: transparent;
+}
+
+
+
+.tendinaDue {
+    background-color: transparent;
+    }
+
+
+    .nascostoDue{ 
+        display: none;
+    
+    }    
+
+
+    #menuDue > button {
+        background-color: black;
+    }
