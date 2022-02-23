@@ -47,6 +47,16 @@ background-color: transparent;
     
     }    
 
+    
+.tendinaTre {
+    display: none;
+    }
+
+
+    .nascostoTre{ 
+        background-color: transparent;
+    
+    } 
 
     #menuDue > button {
         background-color: black;

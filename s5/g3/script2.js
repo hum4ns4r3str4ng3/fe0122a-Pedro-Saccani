@@ -26,3 +26,12 @@ toggleDue.addEventListener('click', function(){
 })
 
 
+var toggleTre =  document.querySelector(' #toggleTre')
+console.log(toggleTre)
+
+toggleTre.addEventListener('click', function(){
+ var tendina =  document.querySelector('.nascostoTre')
+ tendina.classList.toggle('tendinaTre')
+
+})
+
