@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+*{  font-family: 'Indie Flower', cursive;
+    box-sizing: border-box;
+}
+
+body { background-image: url(./mont.jpg);
+background-size: cover;
+background-position: center center;
+min-height: 100vh;
+margin: 0;
+padding: 0;}
+
+
+.aha {text-align: center;
+padding-top: 30px;}
+
+
+.container {
+    display: flex;
+    flex-direction: ROW;
+    justify-content: center;
+    
+}
+
+.container > div { margin: -40px 10px 10px 10px;}
+
+.grande { font-size: 2rem;
+margin-bottom: 10px;
+color: #a29bfe;}
+
+span {font-size: 1.5rem;
+font-weight: bold;}
+
+
