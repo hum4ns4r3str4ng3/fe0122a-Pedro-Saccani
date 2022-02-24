@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+
+*{  font-family: 'Indie Flower', cursive;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.0rem;
+}
+
+body { background-image: url(./sumaid-pal-singh-bakshi-PDhc2VJgwX4-unsplash\ \(1\).jpg);
+background-size: cover;
+background-position: center center;
+min-height: 100vh;
+margin: 0 0 0 20;
+padding: 0;
+
+}
+
+
+
+#insertBTN {
+    width: 7.5rem;
+    height: 7.5rem;
+}
+button {background-color: black;
+    width: 3.5rem;
+    height: 3.5rem;
+    
+border-radius: 40px;}
+
+
+.container {display: flex;
+flex-direction: row;}
+
+
+.insert { 
+    width: 50%;
+}
+input {background-color: black;
+width: 40vh;
+margin-bottom: 5px;}
+
+
+.biglista {width: 50%;}
+
+h2 {margin: 5px 0 5px 20px;
+font-size: 1.8rem;}
+
+h1 {margin: 5px 0 5px 20px;
+    font-size: 1.8rem;
+width: 50%;
+margin-left: 250px;}
+
+p {
+font-size: 0.7rem; 
+color: white;
+border-radius: 40px;
+background-color: black;
+width: 70%;
+padding: 5px;
+text-align: center;}
+
+.animate:hover{
+    cursor: pointer;
+    font-weight: bold;
+    animation: animatepp;
+    animation-duration: 5s;
+}
+@keyframes animatepp {
+    0% {
+       color: black;
+        
+    }
+
+    25% { 
+        color: white;
+
+    }
+    
+    50% {
+        
+        color: rebeccapurple;
+        
+        
+    }
+    75% {
+        
+        color: black;
+    }
+    
+    80% {
+        
+        color: beige;
+        
+    }
+
+    100% {color: #f53844;}
+}
+
+
+
+
+
+#question {width: 6.5rem;
+height: 6.5rem;}
+
+    
+    #toggle {
+        background-color: #4dccc6;
+background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+       width: 8.5rem;
+    }
+    
+  #toggle:hover {
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+    
+    
+  }
+
+    @keyframes animateTG {
+        0% {
+            background-color: aliceblue;
+            
+        }
+    
+        25% { background-color: black;
+    
+        }
+        
+        50% {
+            background-color: #f53844;
+            
+            
+        }
+        75% {
+            background-color: aliceblue;
+            color: black;
+        }
+        
+        100% {
+            background-color: #f53844;
+            color: black;
+            
+        }
+    }
+    
+    .nascosto{ 
+        display: none;
+    
+    }
+
+
+    .tendina {
+        background-color: transparent;
+        }
+        ul li {
+            list-style-type: none;
+          
+        }
+
+    .tendina li { 
+        display: inline;
+    }    
+
+    .tendina li :first-child {margin-left: 30px;
+    }
+
+
+#menu {text-align: center;
+margin-bottom: 15px;
+}
+
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    animation: animate;
+    animation-duration: 5s;
+}
+@keyframes animate {
+    0% {
+        background-color: aliceblue;
+        
+    }
+
+    25% { background-color: rebeccapurple;
+        color: white;
+
+    }
+    
+    50% {
+        background-color: #f53844;
+        color: beige;
+        
+        
+    }
+    75% {
+        background-color: greenyellow;
+        color: black;
+    }
+    
+    100% {
+        background-color: blue;
+        color: beige;
+        
+    }
+}
+
+li {
+    cursor: pointer;
+    font-family: 'Rock Salt', cursive;
+    list-style-type:lower-roman;
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #ffcfdf;
+
+}
+
+@media screen and (min-width: 300px) and (max-width:900px) {
+   .body {transform: scale(30%);}
+   #toggle { text-align: center;
+    background-color: #42378f;
+    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+    width: 40vh;  
+}
+#menu {text-align: center;
+    margin-bottom: 5px;
+    }
+
+    .tendina li :first-child {margin-left: 5px;
+    }
+
+    .tendina  { 
+        position: relative;
+        left: -10px;
+    }    
+
+    .container {display: flex;
+        flex-direction: column;}
+
+        h1 {margin: 5px 0 5px 20px;
+            font-size: 1.4rem;
+        width: 50%;
+        margin-left: 0px;}    
+
+       p {font-size: 0.8rem;} 
+
+       input { margin: 15px 0 ;
+    height: 2.5rem;}
+  #question {
+      margin-left: -10px;
+  }
+  #insertBTN {
+      margin-left: -40px;
+  }
+
+  input {background-color: black;
+    width: 40vh;
+    margin-left: -40px;}
+}
+ 
+    
+ 
+ 
+ .blood {background-color: transparent;
+color: black;
+font-size: 1.5rem;
+margin-top: 50px;
+text-align: center;
+opacity: 100%;}
+ 
+ 
+#data-ore { font-size: 2rem;
+   
+   
+    display: inline;
+    margin-right: 40px;
+    }
+
+    #data-minuti { font-size: 2rem;
+       
+       
+        display: inline;
+        }   
+
+
+
+    
+    
+   
+    
+   
+    
+   
+ 
+ 
