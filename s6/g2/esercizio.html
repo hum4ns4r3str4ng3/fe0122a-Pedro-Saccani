@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Esercizio1</title>
+</head>
+<body>
+<div class="container">
+    <h1>Inscriviti al mio giornale Online</h1>
+    <form class="center">
+        <form action="">
+            <div>Nome : <input type="text" name="nome" value=""> <span>*campo obligatorio</span> <br> </div>
+           <div>Email : <input type="text" name="mail" value=""><span>*campo obligatorio</span> <br>   </div>
+           <div>Ripete lo e-mail : <input type="text" name="mail" value=""><span>*campo obligatorio</span> <br></div>
+           <button type="submit" id="morfo">Inscriviti</button> <button type="submit" id="poli">Pulisci il form</button>
+        </form>
+    </form>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+$("#poli").click(function (){
+   $("input").text("");
+
+});
+
+$("#morfo").click(function (){
+    
+   alert("Grazie, sei inscrito al canale")
+
+});
+    </script>
+</body>
+</html>
