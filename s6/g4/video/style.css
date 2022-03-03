@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+*{  font-family: 'Indie Flower', cursive;
+    box-sizing: border-box;
+}
+
+#box {width: 1px;
+height: 100px;
+background-color: #1AD9DA;
+margin-top: 30px;
+border-style: solid;
+border-color: #FD2751;
+position: absolute;
+}
+
+#testo {font-size: 30px;}

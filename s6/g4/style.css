@@ -1,0 +1,59 @@
+main {
+    margin-top: 200px;
+}
+
+#carosello {
+    min-width: 0px;
+    max-width: 1500px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-pan {
+    margin-top: 70px;
+}
+
+#dsp-pan {
+    height: 165px;
+    width: 325px;
+    float: left;
+    overflow: hidden;
+}
+
+ul {
+    min-width: 0px;
+    max-width: 1500px;
+}
+
+#img-l {
+    position: relative;
+    width: 1600px;
+    list-style: none;
+    min-width: 0px;
+    max-width: 1600px;
+}
+
+#img-l li {
+    float: left;
+    width: 300px;
+    min-width: 0px;
+    max-width: 1500px;
+}
+
+#img-l li img {
+    width: 250px;
+    min-width: 0px;
+    max-width: 1500px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+#l-btn {cursor: pointer;}
+
+#r-btn{cursor: pointer;}
+
