@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Esercizio1</title>
+</head>
+<body>
+<div class="container">
+    <h1>J query contains</h1>
+    <p>Paragrafo</p>
+    <p>Paragrafo nuovo</p>
+
+    <h1>Esempio empty</h1>
+    <table>
+        <tr>
+            <td>Nome</td>
+            <td>Cognome</td>
+<td>Telefono</td>
+        </tr>
+        <tr>
+            <th>Pedro</th>
+            <th></th>
+<th>35966684</th>
+        </tr>
+        <tr>
+            <th>Sara</th>
+            <th></th>
+<th>3518185</th>
+        </tr>
+
+    </table>
+  
+</div>
+
+
+<h1>Esempio child</h1>
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+</ul>
+
+<h1>Esempio form type text</h1>
+<form action="">
+Nome <input type="text" name="nome"> <br>
+Email <input type="text" name="mail"> <br>
+<button type="submit">Invia</button>
+</form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+// contains empty tr e child
+        $(()=>{
+            $("p:contains(nuovo)").css("color", "red");
+            $("tr:even").css("background-color", "blue")
+            $("tr:odd").css("background-color", "red")
+            $("li:first-child").css("color", "red")
+            $("li:last-child").css("color", "purple")
+            $("li:nth-child(3)").css("color", "gold")
+            $("li:nth-child(4)").css("color", "brown")
+            $(":text").css("color", "white")
+            $(":text").css("background-color", "black")
+
+        })
+// empty
+$(":empty").css("background-color", "yellow");
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Altri metodi</title>
+</head>
+<body>
+<div class="container">
+   <p><span>Benvenuto</span> Mi chiamo Pedro</p>
+   <p>Sei su <span>Epicode School</span> </p>
+   <div>Stai frequentando il corso <span>Jquery</span></div>
+   <button>Accendi/Spegni</button>
+</div>
+<div class="lista">
+    <ul>
+        <li>Primeiro</li>
+        <li>Secondo</li>
+        <li class="esempio">Class esempio</li>
+        <li>Quarto</li>
+        <li>Quinto</li>
+    </ul>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+// find toggle filter each
+
+        $("document").ready(function(){
+            var eleSpan = $("span");
+            $("p").find(eleSpan).css("color", "red")
+            $("p").find(eleSpan).hover(function(){
+                $(this).toggleClass("evidenzia");
+               
+            
+            });
+
+        })
+
+        $("document").ready(function(){
+            var eleSpan = $("span");
+            $("li").filter(".esempio").css("background-color", "yellow");
+                $("button").click(function(){
+                    $(eleSpan).toggleClass("accendi");
+                $("li").each(function(){
+                    $(this).toggleClass("evidenzia");
+
+                })
+               
+            });
+
+        })
+
+        
+
+
+
+</script>
+</body>
+</html>

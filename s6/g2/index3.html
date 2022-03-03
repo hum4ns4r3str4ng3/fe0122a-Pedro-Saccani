@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Esercizio1</title>
+</head>
+<body>
+<div class="container">
+    <h1>Primitive Chaos School</h1>
+    <button id="abilita">Clica qui per aggiungere un paragrafo</button>
+    <button id="disabilita">Disabilita</button>
+    <p>Questo e un paragrafo</p>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+/* mouse enter mouse out$(()=>{
+    $("p").mouseenter(function(){
+        $(this).css("background-color"," yellow ")
+    });
+    $("p").mouseout(function(){
+        $(this).css("background-color", "white" )
+    });
+
+})
+*/
+
+// on
+$(()=>{
+    $("p").on("mouseover mouseout", function(){
+        $(this).toggleClass("evidenzia");
+    })
+   
+})
+
+
+$(()=>{
+    $("div").on("click", "p", function(){
+        $(this).slideUp();
+
+    })
+   $("#abilita").click(function(){
+       $("<p> Questo e un nuovo paragrafo</p>").insertAfter("button");
+   })
+})
+
+// off
+$(()=>{
+    $('#disabilita').click(function(){
+    $("#abilita").off("click");
+    });
+})
+
+
+
+   
+</script>
+</body>
+</html>

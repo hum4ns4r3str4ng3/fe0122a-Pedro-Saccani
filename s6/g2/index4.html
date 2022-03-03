@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Esercizio1</title>
+</head>
+<body>
+<div >
+   Questo e il elemento genitore
+   <p>Questo e il figlio  <span>Questo e il nipote</span></p>
+    
+</div>
+<section >
+   <p> Fratelli</p>
+    <p>Questo e altro fratello</p>
+    <h3>Fratello</h3>
+    <h4>Altro fratello</h4>
+     
+</section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+$("document").ready(function(){
+    $("div").children().css({"color": "blue"});
+});
+
+$("document").ready(function(){
+    $("h3").siblings().css({"color": "yellow"});
+});
+</script>
+</body>
+</html>
