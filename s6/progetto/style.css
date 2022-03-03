@@ -30,8 +30,8 @@ body { background-image: url(./fredrik-solli-wandem-V0eECO6ITqA-unsplash.jpg);
 .box {
     width: 50%;
     margin: auto;
-    margin-top: 10px;
-    text-align: center;
+    
+    
 }
 
 .numclicks,
@@ -60,7 +60,6 @@ h2 {
 .restart {
     text-align: center;
 }
-
 
 
 
